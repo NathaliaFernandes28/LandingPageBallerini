@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #8e5d52;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img {
+  height: 60px;
+  margin: 12px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-item {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff2e7;
+}
+
+.section {
+  border-top: 0.4px solid #fff2ef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.write {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.balle {
+  font-family: "Righteous", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff2e7;
+}
+.description {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+  color: #ecd6c4;
+}
+button {
+  background-color: #ecd6c4;
+  width: 100px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Sarala";
+  color: #2f2325;
+}
+button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+  transition: 0.5s;
+}
+.imgbot {
+  width: 230px;
+  height: 230px;
+  margin-right: 40px;
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: #fff2e7;
+  margin-top: 48px;
+}
+.paragraph {
+  border-top: 0.4px solid #fff2ef;
+  padding-top: 40px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+.text-description {
+  font-family: "Sarala", sans-serif;
+}
+footer {
+  border-top: 0.4px solid #fff2ef;
+  text-align: center;
+  padding: 32px;
+}
+
+.imgfooter {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
